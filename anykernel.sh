@@ -59,6 +59,7 @@ dump_boot;
 
 # end ramdisk changes
 
+flash_dtbo;
 write_boot;
 ## end install
 

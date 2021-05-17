@@ -1,7 +1,7 @@
 DEVICE := $(shell echo ${DEVICE})
 KERNAME := $(shell echo ${KERNAME})
 
-NAME := ${KERNAME}-$(DEVICE)
+NAME := ${KERNAME}-$(TYPE)-$(DEVICE)
 DATE := $(shell date "+%Y%m%d-%H%M%S")
 ZIP := $(NAME)-$(DATE).zip
 EXCLUDE := Makefile *.git* *.jar* *placeholder* *.md*

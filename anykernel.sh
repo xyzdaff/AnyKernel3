@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Cimol-beku by hanayasu
+kernel.string=ExampleKernel by osm0sis @ xda-developers
 do.devicecheck=0
 do.modules=0
 do.systemless=1
